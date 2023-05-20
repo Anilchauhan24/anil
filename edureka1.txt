@@ -1,0 +1,6 @@
+git config --global user.name "Anilchauhan24"
+
+git config --global user.email "rewardpointsbit@gmail.com"
+
+
+https://github.com/SangeethaShanmugm/ED-May-intern_23/blob/master/notes.txt
