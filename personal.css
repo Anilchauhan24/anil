@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* Nvabar stylong */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: rgb(33, 10, 14);
+    padding: 30px 0;
+    font-family: 'ubuntu', sans-serif;
+
+}
+.navbar .max-width{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: crimson;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
+
+}
+
+/* Home scetion sthle*/
+.home{
+    display: flex;
+    background: url(as.JPG.jpg) no-repeat center;
+    height: 100vh;
+    color:#fff;
+    min-height: 400px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.home .max-width{
+    margin: auto 70px;
+
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}

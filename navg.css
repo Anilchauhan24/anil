@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5))50%,url(1.JPEG);
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+}
+.navbar{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 100px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    float: left;
+    padding-top: 5px;
+}
+.menu{
+    width:400px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+}
