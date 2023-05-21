@@ -1,0 +1,70 @@
+/*var anon= function(q,e){
+    console.log("anomiys");
+    return q+e;
+}
+anon(9,8);
+setTimeout(function(q,e){console.log("timeout")})*/
+
+/* constructor is called when an object is created using the new keyword
+example- var addFunc= new Function("a",b", "return a+b;");
+var c = addFunc(2,3); 
+ or
+
+var addFunc= function(a,b){
+    return a+b;
+}
+var c = addFunc(2,3);
+*/
+
+Javasctip named function = 
+function addNum(a,b){
+    console.log("Functiin is namwd");
+    return a+b;
+}
+addNum(4,5);
+var sum=4+5;
+console.log(sum);
+
+
+
+/*Self-invoking function*/
+
+- Self invoking functions are anonymous  functions; which are invoked right after the function has been created
+you can execute the code once, without declaring any global variables
+no reference is mainained to this function, not even to its return value
+
+syntex- 
+(function(){
+    //body
+});
+
+
+self-invoking function-
+(function()alert("this is self-invoking function");
+
+})();
+
+for exapmle= (function(a,b){
+    console.log("in-self invoking function");
+    return a+b;
+}(2,5));
+
+
+
+CALCULATING SQUARE OF A NUMBER- 
+
+function squared(a){
+    return a*a;
+}
+
+forxmple- 
+
+function nCalSquare(a){
+    return a*a;
+}
+console.log("calling named function:" + nCalSquare(9));
+
+function nCalSquare(a){
+    return a*a;
+}
+console.log("calling square:"+ nCalSquare(9));
