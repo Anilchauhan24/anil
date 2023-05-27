@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        function myfunction(){
+            document.getElementbyId('hd').innerHTML="Hsied";
+        }
+    </style>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        header{
+            background-color: aqua;
+            font-family: sans-serif;
+
+            
+        }
+        div{
+            font-size: 18px;
+            padding: 5px;
+            background-position: 0;
+        
+        }
+        ul{
+            display:flex;
+            padding: -10px;
+        }
+        ul li{
+            padding: 7px;
+            text-decoration: none;
+
+        }
+        ul li a{
+            text-decoration: none;
+        }
+        ul li a:hover{
+            color:red;
+            transition: ease-in 0.5s ;
+            border: 1px solid red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <script src="java.js"> 
+    
+    </script>
+    <header>
+        <h1 style="color:red; font-style: sans-serif; size: 24px; text-align:center;">Javascript tutorial</h1>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Class</a></li>
+                <li><a href="#">tutorial</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <hr/>
+    <p id="as"> Welcome to learning javascript tutorial</p>
+    <br>
+    <button type="button" onclick="document.getElementById('as').innerHTML=Date()">Click me here to see the time</button>
+    <h2 style="color: rgb(136, 0, 255);">How to turn on bulb</h2>
+    <h2> Please show rh bulb</h2>
+    <button type="button" onclick="document.getElementById('turn on').src='bulb1on.gif'">Turn on</button>
+    <img id="turn on" src="bulb1.gif">
+    <button type="button" onclick="document.getElementById('turn on').src='bulb1.gif'">Turn off</button>
+    <hr/>
+
+    <h3> Creat a pen that can write automatically</h3>
+    <br>
+    <button type="button" onclick="document.getElementById('pen').src='penon.gif'">Start writing</button>
+    <img id="pen" src="penoff.jpeg" style="width: 300px">
+    <button type="button" onclick="document.getElementById('pen').src='penoff.jpeg'">stop writing</button>
+    <hr/>
+    <h2> Going to drive bike to catch me</h2>
+
+    <br>
+    <button type="button" onclick="document.getElementById('bik').src='bikeon.gif'">Start driving</button>
+    <img id="bik" src="bikeoff.JPEG" style="width: 300px">
+
+     <button type="button" onclick="document.getElementById('bik').src='bikeoff.JPEG'">Send me a message</button>
+
+
+<hr/>
+
+<!------function----->
+
+//<h2> Hello match turotia;</h2>
+<p id="qw"></p>
+<script>
+    function myfunction(p1,p2){
+        return p1 * p2;
+    }
+    let anil= myfunction(50, 90);
+    document.getElementById("qw").innerHTML= anil;
+</script>
+
+
+<h3> Another soltion by adding the text</h3>
+
+<h2 id="er"></h2>
+<script>
+    function myfunction(w,v){
+        return w + v;
+    }
+    let fist= myfunction(500, 900);
+    document.getElementById("er").innerHTML= fist
+</script>
+
+
+
+<h4>Division</h4>
+<h5 id="df"></h5>
+<script>
+    function myfunction(j,k){
+        return j/k;
+    }
+    let div= myfunction(500, 100);
+    document.getElementById("df").innerHTML= div;
+</script>
+
+<h3>Another solution with difficult</h3>
+<h4 id="ax"></h4>
+<script>
+    function myfunction(a,d,f){
+        return a + d * f;
+    }
+    let result = myfunction(45,45,2);
+    document.getElementById("ax").innerHTML= result;
+</script>
+
+<!-----Going to use function name-->
+<p id="sx"></p>
+<script>
+    function name(anil, mohan, sohan){
+    }
+    document.getElementById("sx").innerHTML= [0];
+</script>
+
+
+<p id="qw"></p>
+<script>
+    let x= myfunction(4,5);
+    document.getElementById("qw").innerHTML= x;
+
+    function myfunction(a,b){
+        return a * b;
+    }
+
+    
+    
+</script>
+
+
+
+<h2> Car model</h2>
+<p id="lo"></p>
+<script>
+    const car={type:"flat", model:"2023", color:"red"};
+    document.getElementById("lo").innerHTML= "The car type is:"+ car.color;
+</script>
+
+
+<h3> Going to put a person's detaisl</h3>
+<p id="hj"></p>
+<script>
+
+const name= {person:"Rahul", age:"52", height:"6 foot", address:"Delhi"};
+document.getElementById("hj").innerHTML= name.person +"is" + name.age +"and"+ name.height;
+</script>
+
+<h2>Hillo</h2>
+<p id="demo"></p>
+<!---going to creat objetc-->
+<script>
+    const person = {
+        firstName: "Anil",
+        lastName: "Chauhan",
+    
+    };
+    document.getElementById("demo").innerHTML= person.firstName;
+
+</script>
+
+<h1> Another expale </h1>
+<p id="lkg"></p>
+<script>
+    const name= {
+        secondName: "chauhan",
+        lastName: "Anil",
+    };
+    document.getElementById("lkg").innerHTML= name["secondName"];
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
