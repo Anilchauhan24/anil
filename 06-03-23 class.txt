@@ -1,0 +1,64 @@
+text-align
+margin:
+padding:
+margin-top
+margin-left
+
+justify-content - to be used in blog or newspaper it just 
+
+adjust the text 
+
+text-decoration- overline, underline, 
+
+text-decoration-color
+
+
+overline- a line over the content
+
+underline- below a
+
+
+
+text-decoration-style
+
+text-decoration-line- overline underline;
+
+text-transform- uppercase, or lowercase, capitalize,
+
+text-indent= 12px;
+indentation- leaving some sapce from starting
+
+letter-spacing: 6px;
+
+line-height: 40px;
+
+word-spacing: 5px;
+
+text-shadow=5px 50px blue;
+
+
+Group selector- 
+
+static - reveal the default position, can't move anywhere
+position: static;
+
+position:relative
+
+position:fixed- not moving anywhere even if scroll the page
+
+
+
+position: sticky;
+
+.sticky{
+position: sticky;
+
+
+
+position:absolute;
+
+
+
+}
+
+

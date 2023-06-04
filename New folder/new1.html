@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            color:rgb(245, 29, 29);
+            font-family: 'Courier New', Courier, monospace;
+            /*background-color: rgb(42, 165, 122);*/
+
+        }
+
+        .left{
+            color: rgb(38, 255, 0);
+            font-size: 25px;
+            align-items: left;
+            padding-top: 4px;
+            margin-left: 4px;
+        }
+        .right{
+            font-size: 18px;
+            text-align:center;
+            text-justify: space;
+
+        }
+        nav{
+            background-color: wheat;
+         justify-content: space-around;
+         display: flex;
+
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 12px;
+            color: orangered;
+        }
+        nav ul li{
+            text-decoration: none;
+            padding: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 2px;
+            border-color: 1px dashed yellow;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:rgb(247, 0, 255);
+        }
+        nav ul li a:hover{
+            color:rgb(245, 1, 29);
+            border:1 px dashed yellow;
+            text-shadow: .2sec;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><h1>School Learning</h1></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Class</a></li>
+                    <li><a href="#">School</a></li>
+                    <li><a href="#">Teacher</a></li>
+                    <li><a href="#">Student</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr/>
+    
+<h2>Javscript string </h2>
+
+<p> Going to play with text length</p>
+<p id="se"></p>
+<script>
+    let text= "Anilkumarchauhan";
+    document.getElementById('se').innerHTML= text.length;
+</script>
+
+
+<p id="sd"></p>
+<script>
+    let name= "anilkumarchauhan";
+    document.getElementById('sd').innerHTML = name;
+</script>
+
+<script>
+
+    <button type="button" onclick="document.getElementById('time').time">View time</button>
+</script>
+
+<h2 id="time"></h2>
+    
+
+
+</body>
+</html>
