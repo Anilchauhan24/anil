@@ -19,3 +19,29 @@ var aCal = function(w){
     return w*w;
 }
 console.log("new value:"+ aCal(20));
+
+
+function nCalSquare(z){
+    return z*z;
+}
+console.log("asd:"+ nCalSquare(300));
+
+
+
+
+var aCal =function(y){
+    return y*y;
+}
+console.log("y vakue is:"+ aCal(2000));
+
+
+
+function nCalSquare(f){
+    return f*f;
+}
+console.log("def:"+ nCalSquare(4000));
+
+var aCal= function(b){
+    return b*b;
+}
+console.log("b value is:"+ aCal(500));
