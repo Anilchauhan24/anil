@@ -1,0 +1,15 @@
+bootsrap is the combination = (Grid, classes+ components)
+
+to make responsive page bootsrap usage the Grid system
+
+to style the page we use classes so boostrap has a class for the same
+
+**classes-
+
+<img src= "" class="img-fluid" alt=""
+
+img-fluid will automatically make your image responsive
+
+Components - a kind of Button such as (Alert)
+ 
+

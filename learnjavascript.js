@@ -45,3 +45,21 @@ var aCal= function(b){
     return b*b;
 }
 console.log("b value is:"+ aCal(500));
+
+
+
+function nCalSquare(d){
+    return d*d;
+}
+console.log("kl"+ nCalSquare(45));
+
+var aCal= function(i){
+    return i*i;
+}
+console.log("jk:"+ aCal(25));
+
+//self-invoking function//
+
+function (a){
+    console.log("hello"+a)return a*a;
+})(9);
