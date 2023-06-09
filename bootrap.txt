@@ -1,15 +1,53 @@
-bootsrap is the combination = (Grid, classes+ components)
+Breakpoint   Class index   Dimension
 
-to make responsive page bootsrap usage the Grid system
+x-small        none         <576
+small -        sm          >= 576px
+medium -       md          >=768px
+large -        lg          >=992 px
+extra large    xl          >=1200px 
 
-to style the page we use classes so boostrap has a class for the same
+extra-2-large  xxl         .>=1400px;
 
-**classes-
 
-<img src= "" class="img-fluid" alt=""
+Container class in bootsrap
 
-img-fluid will automatically make your image responsive
+.container                     100% 540px ........... 1400px
+.container-sm                  100%  540 px -----------1320
+.container-md    
+.container-lg
+.container-xl
+.container-xxl
+.container-fluid
 
-Components - a kind of Button such as (Alert)
- 
+
+Column system in boostrap as well as Grid &12
+
+
+Grid option
+
+
+Extra small       xs      
+Small             sm
+medium            md
+large             lg
+extra-large       xl
+extra-2 large     xxl
+
+
+Grid and column system
+container will word as above listed while
+
+Class prefix  
+
+.col-   
+.col-sm- 
+.col-md-
+.col-lg-
+.col-xl-
+.col-xxl-
+
+#of columns- 12
+
+
+
 
