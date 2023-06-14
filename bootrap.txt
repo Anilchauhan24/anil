@@ -49,5 +49,45 @@ Class prefix
 #of columns- 12
 
 
+If 12 columns can't be used then auto column layout logic can be used
 
+col-lg  col-lg  col-lg   col-lg  col-lg
+
+Gutters classes in Bootstrap5
+
+Gutter classes to be used when it needs to apply padding /margin with the custom format
+padding/margin is based on Gutters
+
+gx- padding
+gy- margin
+
+
+
+
+Text- clasess in boostrap
+
+Text-alignment- text-center or text-end or text-start
+
+Text-transform
+
+
+Font-weight
+font-italics
+
+Font-size= 
+
+fs-1  2.5 rem
+fs-2  2 rem
+fs-3  1.75 rem
+fs-4   1 rem
+
+
+Font-weight and italics
+
+fw- bold
+fw- bolder
+fw- normal
+fw- lighter
+fst-italic
+fst-normal
 
