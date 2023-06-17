@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color: rgb(171, 196, 190);
+    display: inline-flexbox;
+    padding: 4px;
+    margin: 4px;
+}
+
+ul li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+ul li a:hover{
+    color:orange;
+    box-sizing: border-box;
+    text-decoration: none;
+    animation-timing-function: cubic-bezier(0.5sec);
+
+}
+li a::after{
+    color:aqua;
+    border: 1px salmon solid;
+}
+form{
+    background-color: rgb(20, 19, 18);
+    display: inline-block;
+    font-style: normal;
+    margin-left: 550px;
+    align-items: center;
+    position: relative;
+    top:-19px;
+    border: 2px solid yellow;
+
+}
+form input{
+    display: inline-block;
+}
+label{
+    color:aliceblue;
+}
