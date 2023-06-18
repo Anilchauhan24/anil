@@ -15,8 +15,17 @@
             margin: 0;
             font-family: Georgia;
         }
-        body{
-            background-color: rgb(233, 227, 229);
+
+        @media only screen and(min-width: 450px) {
+            body {
+                background-color: rgb(238, 234, 26);
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            body {
+                background-color: rgb(193, 23, 80);
+            }
         }
 
         .profile {
@@ -41,10 +50,10 @@
         .perpendicular {
             transform: rotate(90deg);
             border-color: #86f114;
-            margin-right:100px;
+            margin-right: 100px;
             position: relative;
             line-height: 100%;
-            color:black;
+            color: black;
             margin-bottom: 5px;
             top: 10px;
         }
@@ -101,6 +110,7 @@
             background: #37dd21;
             box-shadow: 0cqmax;
         }
+
         .range2>input[type='range'] {
             width: 50px;
             -webkit-appearance: none;
@@ -108,6 +118,7 @@
             cursor: ew-resize;
             background: #dd2159;
         }
+
         .range2>input {
             max-width: fit-content;
             padding-left: 50px;
@@ -137,7 +148,7 @@
     <p style="text-align: center;">Anil kumar chauan <a href="mail to">akc956789@gmail.com</a> Phone Number: <b
             style="color:red">9650117292</b></p>
     <hr>
-       <hr class="perpendicular">
+    <hr class="perpendicular">
 
     <div class="profileone">
         <i class="fa-solid fa-circle-user"></i>
@@ -169,7 +180,7 @@
             <br>
             <h3>Additional Skills</h3>
             <br>
-            <div class="range2"style="text-align: left;">
+            <div class="range2" style="text-align: left;">
                 <input type="range" class="range" min="0" max="10">
                 <p>Project management</p>
                 <input type="range" class="range" min="0" max="10">
