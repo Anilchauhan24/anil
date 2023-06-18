@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    <script src="https://kit.fontawesome.com/2d38ef399e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -12,6 +13,10 @@
         * {
             padding: 0;
             margin: 0;
+            font-family: Georgia;
+        }
+        body{
+            background-color: rgb(233, 227, 229);
         }
 
         .profile {
@@ -21,15 +26,27 @@
         }
 
         .img {
-            width: 50%;
-            height: 40px;
-            border: 1px dashed yellow;
-            padding-top: 20px;
+            border: 1px dashed rgb(0, 13, 255);
+            padding-top: 0px;
+            margin-left: 600px;
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            background-color: aqua;
+            justify-content: center;
+            text-align: center;
+            z-index: 1;
         }
 
         .perpendicular {
             transform: rotate(90deg);
-            border-color: #1A85FD;
+            border-color: #86f114;
+            margin-right:100px;
+            position: relative;
+            line-height: 100%;
+            color:black;
+            margin-bottom: 5px;
+            top: 10px;
         }
 
         .profileone {
@@ -37,7 +54,7 @@
             text-align: center;
             justify-content: start;
             margin-block-end: 500px;
-            ;
+
             width: 400px;
             height: 300px;
             align-items: last baseline;
@@ -49,13 +66,63 @@
             position: absolute;
             text-align: center;
             justify-content: start;
-            margin-left: 401px;
+            margin-left: 700px;
             ;
             width: 400px;
             height: 300px;
             align-items: last baseline;
-            background-color: #698936;
+            /*background-color: #698936;*/
 
+
+        }
+
+        /*
+        .range {
+            width: 70%;
+            background-color: #8d3b75;
+            box-sizing: border-box;
+        }*/
+
+
+
+        input {
+            max-width: fit-content;
+            padding-left: 100px;
+            position: absolute;
+            margin-left: 80px;
+            margin-top: 5px;
+        }
+
+        input[type='range'] {
+            width: 50px;
+            -webkit-appearance: none;
+            height: 10px;
+            cursor: ew-resize;
+            background: #37dd21;
+            box-shadow: 0cqmax;
+        }
+        .range2>input[type='range'] {
+            width: 50px;
+            -webkit-appearance: none;
+            height: 10px;
+            cursor: ew-resize;
+            background: #dd2159;
+        }
+        .range2>input {
+            max-width: fit-content;
+            padding-left: 50px;
+            position: absolute;
+            margin-left: 165px;
+            margin-top: 5px;
+        }
+
+        .fa-solid {
+            background-color: orange;
+            position: absolute;
+            justify-items: start;
+            margin-left: -60px;
+            font-size: 20px;
+            margin-top: 2px;
 
         }
     </style>
@@ -63,70 +130,125 @@
 
 <body>
 
-    <div class="img"><img src="anil23.JPG.jpg" height="20px" width="100px;" alt="mypic"></div>
+    <div class="img"><img src="final-1.webp" height="140px" width="140px;" alt="mypic" class="image--cover"></div>
     <div class="profile">
         <h1 style="text-align: center; color:rgb(216, 216, 231); background-color: black;">Anil chauhan</h1>
     </div>
+    <p style="text-align: center;">Anil kumar chauan <a href="mail to">akc956789@gmail.com</a> Phone Number: <b
+            style="color:red">9650117292</b></p>
+    <hr>
+       <hr class="perpendicular">
 
     <div class="profileone">
-        <h2 style="color:blanchedalmond;">Profile</h2>
+        <i class="fa-solid fa-circle-user"></i>
+        <h2 style="color:rgb(38, 37, 36);">Profile</h2>
         <br>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, ipsum ad. Magnam dignissimos libero
             inventore dolores commodi nobis iure cupiditate amet impedit delectus. Eius iusto neque atque debitis
-            repudiandae esse?</p>
+            repudiandae esse?</p><br>
         <div class="skill">
-            <h2 style="color:blanchedalmond;">Skills</h2>
+            <i class="fa-sharp fa-solid fa-flask"></i>
+            <h2 style="color:rgb(52, 50, 48);">Skills</h2>
+            <br>
             <h3>Technical skills</h3>
-            <ol style="text-align: left; padding-left: 20px;">
+            <br>
+            <ol style="text-align: left; padding-left: 10px;">
+                <input type="range" class="range" min="0" max="10">
                 <li>HTML</li>
+                <input type="range" class="range" min="0" max="9">
                 <li>CSS</li>
+                <input type="range" class="range" min="0" max="8">
                 <li>javascript</li>
+                <input type="range" class="range" name="points" min="0" max="7">
                 <li>javascript</li>
-                <li>javascript</li>
-                <li>javascript</li>
+                <input type="range" class="range" min="0" max="6">
+                <li>MangoDB</li>
+                <input type="range" class="range" min="0" max="5">
+                <li>Python</li>
             </ol>
+            <br>
             <h3>Additional Skills</h3>
-            <div style="text-align: left;">
+            <br>
+            <div class="range2"style="text-align: left;">
+                <input type="range" class="range" min="0" max="10">
                 <p>Project management</p>
+                <input type="range" class="range" min="0" max="10">
                 <p>Recruitment</p>
+                <input type="range" class="range" min="0" max="10">
                 <p>Business development</p>
+                <input type="range" class="range" min="0" max="10">
                 <p> Editing</p>
+                <input type="range" class="range" min="0" max="10">
                 <p>Fund raising</p>
             </div>
-            <h2>Work experience</h2>
             <br>
 
+            <i class="fa-solid fa-briefcase"></i>
+            <h2 style="text-align:center">Work experience</h2>
+
             <h4>Event manager</h4>
-            <p style="text-align: right;"><time> 03/2014-02/2017</time></p>
+            <br>
+            <p style="text-align: right;"><time> 03/2014-02/2017</time></p><br>
             <div style="text-align: left;">
-            <ul>
-                
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
-            </ul>
-        </div>
+                <ul>
+
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nostrum itaque fugit,</li>
+                </ul>
+            </div>
 
         </div>
     </div>
     <div class="work">
+        <i class="fa-solid fa-briefcase"></i>
         <h2>Work experience</h2>
-        <span> Ths is here you can find work experience</span>
+        <br>
+        <h3 style="text-align: left;">Community Relation manager</h3><br>
+        <span style="text-align: left;"> Ths is here you can find work experience</span>
         <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-            <li>d</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
 
             </li>
         </ul>
+        <br>
+        <i class="fa-solid fa-book-blank"></i>
+        <h2>Education</h2>
+        <br>
+        <h3 style="text-align: left;">Engineering Emersion Program</h3>
+        <br>
+        <b><span>From <time>11/01/2018-06/05/2018</time></span></b>
+        <br>
+        <center>
+            <p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis corporis
+                voluptate fugit. Labore veritatis, et
+                numquam ipsam totam magnam accusantium, inventore iure molestias nemo nostrum. Itaque earum sint aut
+                odit.
+            </p>
+        </center>
+        <ul>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        </ul><br>
+        <h3>B.A English
+            <pre> <time> 09/2001 - 05/2005</time></pre>
+        </h3>
+        <span style="text-align: left;">University of california, Los Angeles</span>
 
     </div>
-    <hr class="perpendicular">
+    <!---<hr class="perpendicular">--->
 
 </body>
 
