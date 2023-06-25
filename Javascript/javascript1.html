@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div>
+            <a class="nav-brand text-warning" href="#">Javascript</a>
+        </div>
+        <div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link text-warning" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#">Class</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#">About us</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="javascript1.js"></script>
+    <div class="container">
+        <article>
+            <h1 id="java">Javascript Learning</h1>
+            <hr>
+            <h2>
+                <dt style="text-align: center;"><strong>What Is Javascript?</strong>
+            </h2>
+            <dd>JavaScript is a scripting or programming language that allows you to implement complex features on web
+                pages — every time a web page does more than just sit there and display static information for you to
+                look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video
+                jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer
+                cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in
+                other parts of the Learning Area.
+                <img src="javascrip.jfif" alt="javascript">
+                <summary>We can declare variables to store data by using the var, let, or const keywords.
+
+                </summary>
+                <br>
+                <pre>let admin, name; // can declare two variables at once
+
+                    name = "John";
+                    
+                    admin = name;
+                    
+                    alert( admin ); // "John"</pre>
+
+            </dd>
+            <h2>
+                <dt> Features of Javascript:</dt>
+            </h2>
+            <dd>The core client-side JavaScript language consists of some common programming features that allow you to
+                do things like:
+                <ol>
+                    <li>Store useful values inside variables. In the above example for instance, we ask for a new name
+                        to be entered then store that name in a variable called name.
+                    </li>
+                    <li>
+                        Operations on pieces of text (known as "strings" in programming). In the above example we take
+                        the string "Player 1: " and join it to the name variable to create the complete text label, e.g.
+                        "Player 1: Chris".
+
+                    </li>
+                    <li>
+                        Running code in response to certain events occurring on a web page. We used a click event in our
+                        example above to detect when the label is clicked and then run the code that updates the text
+                        label.
+
+                    </li>
+                </ol>
+            </dd>
+            </dt>
+            <h2>Select the language</h2>
+            <select>
+
+                <option value="1">JavaScript</option>
+
+                <option value="2">HTML</option>
+                <option value="3">CSS</option>
+                <option value="4">PYTHON</option>
+                <option value="5">PHP</option>
+                <option value="2">MYSQL</option>
+                <option value="3">BOOSTRAP</option>
+            </select>
+            <a href="#java">Go to Javascript</a>
+            <a href="#java">Go to HTML</a>
+            <a href="#java">Go to CSS</a>
+            <a href="#java">Go to PYTHON</a>
+            <a href="#java">Go to PHP</a>
+            <a href="#java">Go to MYSQL</a>
+            <a href="#java">Go to BOOTSTRAP</a>
+            <br>
+            <h3>To know more fill the form below: </h3>
+            <form>
+                <label>Name:</label>
+                <input type="name" value="name" placeholder="Enter your name" required>
+                <label>Email:</label>
+                <input type="email" value="email" placeholder="Enter your Email" required>
+                <label>Phone:</label>
+                <input type="phone" value="phone number" placeholder="Enter your number" required>
+                <label>Address:</label>
+                <input type="address" value="address" placeholder="Enter your address" required>
+                <label>Submit:</label>
+                <input type="submit" value="submit">
+
+
+
+            </form>
+            <filter>
+
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."
+                    title="Type in a name">
+
+                <ul id="myUL">
+                    <li><a href="#">Adele</a></li>
+                    <li><a href="#">Agnes</a></li>
+
+                    <li><a href="#">Billy</a></li>
+                    <li><a href="#">Bob</a></li>
+
+                    <li><a href="#">Calvin</a></li>
+                    <li><a href="#">Christina</a></li>
+                    <li><a href="#">Cindy</a></li>
+                </ul>
+
+                <script>
+                    function myFunction() {
+                        var input, filter, ul, li, a, i, txtValue;
+                        input = document.getElementById("myInput");
+                        filter = input.value.toUpperCase();
+                        ul = document.getElementById("myUL");
+                        li = ul.getElementsByTagName("li");
+                        for (i = 0; i < li.length; i++) {
+                            a = li[i].getElementsByTagName("a")[0];
+                            txtValue = a.textContent || a.innerText;
+                            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                li[i].style.display = "";
+                            } else {
+                                li[i].style.display = "none";
+                            }
+                        }
+                    }
+                </script>
+
+        </article>
+        <div class="row">
+            <div class="col-md text-dark bg-success">
+                <h2>Column1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum similique cum, sint, tempora
+                    repudiandae quam sit ratione, iure dicta maiores nostrum deleniti unde. Tempora nihil, delectus
+                    sed quam dolore alias!</p>
+            </div>
+            <div class="col-md text-dark bg-warning">
+                <h2>coloumn2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum similique cum, sint, tempora
+                    repudiandae quam sit ratione, iure dicta maiores nostrum deleniti unde. Tempora nihil, delectus
+                    sed quam dolore alias!</p>
+            </div>
+            <div class="col-md text-light bg-danger">
+                <h2>column 3</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum similique cum, sint, tempora
+                    repudiandae quam sit ratione, iure dicta maiores nostrum deleniti unde. Tempora nihil, delectus
+                    sed quam dolore alias!</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="container">
+        <div class="row">
+        <div class="col-md">
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum natus quis iure quia delectus officiis
+                magnam, enim quibusdam repellendus id odio modi repellat eaque quod. Iste nulla tenetur quibusdam ipsa.
+            </P>
+            &#169 copyrighted: www.javascript.learn	<br>
+            <a class="text-primary bg-warning mr-4px"href="#java" target="_top">Go to top</a>
+        </div>
+    </div>
+</div>
+    </footer>
+    </div>
+    <div class="container">
+    <div class="card" style="width: 18rem;">
+        <img src="javascrip.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

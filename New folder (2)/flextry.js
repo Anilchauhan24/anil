@@ -39,7 +39,7 @@ colors =['white','black','custom'];
 document.getElementById('color').innerHTML=[0];
 */
 
- function getSize (width, height, depth){
+ /*function getSize (width, height, depth){
   var Area = width*height;
   var volume= width*height*depth;
   var sizes = [area, volume];
@@ -47,4 +47,6 @@ document.getElementById('color').innerHTML=[0];
  var areaOne= getSize(2,3,5)[0];
  console.log(areaOne);
  var areaTwo= getSize(5,10,15)[1];
- console.log(areaTwo);
+ console.log(areaTwo);*/
+
+ 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+    <script src="reactjs.js"></script>
+    <script>
+        async function load() {
+          let say = await import('./say.js');
+          say.hi(); // Hello!
+          say.bye(); // Bye!
+          say.default(); // Module loaded (export default)!
+        }
+      </script>
+      <button onclick="load()">Click me</button>
+
+      <script>
+        function MyButton() {
+    return (
+      <button>
+        I'm a button
+      </button>
+    );
+  }
+  
+  export default function MyApp() {
+    return (
+      <div>
+        <h1>Welcome to my app</h1>
+        <MyButton />
+      </div>
+    );
+  }
+
+
+  function MyButton (){
+    return(
+        <button>I'm button</button>
+    );
+  }
+  export default function MyApp(){
+    return(
+        <div>
+            <h1>Welcome to my clss</h1>
+        </div>
+    );
+
+    
+  }
+
+  
+      </script>
+    
+</body>
+</html>
