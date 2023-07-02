@@ -1,0 +1,35 @@
+.container{
+    position: absolute;
+    
+}
+.main {
+    background-image: url(zomatopic2.jpg);
+    width: 1000px;
+    height: 50vh;
+    position: absolute !important;
+    z-index: 0;
+}
+
+.form-control {
+    text-align: center;
+    background-color: aqua;
+}
+
+.fa-solid {
+    margin: 10px;
+    position: absolute;
+}
+
+.navbar-right {
+    text-align: right !important;
+    position: relative;
+    margin-left: 300px;
+}
+
+.cardbody1 {
+    display: inline-flex;
+   position: absolute;
+   margin-top: 345px;
+   text-align:justify;
+}
+
